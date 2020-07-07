@@ -24,6 +24,46 @@ h1 strong {
     color: #026fff;
 }
 
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.header {
+    background-color: #1D242C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
 .hero {
     height: 300px;
     background-image: url('../images/hero.jpg');
@@ -56,30 +96,6 @@ h1 strong {
     width: 500px;
 }
 
-.header {
-    background-color: #1D242C;
-    color: white;
-    height: 70px;
-}
-
-.header a {
-    color: white;
-    text-decoration: none;
-}
-
-.flexbox {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.box {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    border: 1px solid red;
-    flex-shrink: 0;
-}
-
 .footer {
     color: white;
     background-color: #1D242C;
@@ -95,3 +111,7 @@ h1 strong {
 .footer a {
     color: white;
 }
+
+
+
+
